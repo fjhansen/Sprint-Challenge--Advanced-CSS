@@ -169,19 +169,22 @@ nav {
 }
 nav h1 {
   display: flex;
-  font-size: 3em;
-  padding-bottom: 1rem;
   padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: black;
+  font-size: 3em;
 }
 nav ul {
   display: flex;
+  padding-top: 1em;
+  padding-bottom: 1em;
   justify-content: space-evenly;
   width: 40%;
-  padding-bottom: 1em;
 }
 nav ul li a {
   text-decoration: none;
   color: black;
+  font-size: 1em;
 }
 footer {
   color: #22283B;
@@ -234,6 +237,14 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn a {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  padding: 2% 4%;
+  border-radius: 5px;
+  text-decoration: none;
 }
 .home .walk .walk-img {
   width: 46%;
