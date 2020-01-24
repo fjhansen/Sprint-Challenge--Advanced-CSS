@@ -1,9 +1,28 @@
 // Home Content
 
 .home {
-
+@media @phone {
+  width: 100%;
+}
   .intro {
 
+    @media @phone {
+      display: flex;
+      flex-direction: column;
+
+
+    }
+
+
+    div {
+      img {
+
+        @media @phone {
+        width: 100%;
+        
+      }
+      }
+    }
     h2 {
       padding: 15px;
     }
@@ -11,6 +30,8 @@
     p {
       padding:0 15px;
     }
+
+
   
   }
 
@@ -24,6 +45,23 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+
+      @media @phone {
+        width: 100%;
+        
+      }
+    }
+
+    .sky {
+      @media @phone {
+        display: none;
+      }
+    }
+
+    .launch {
+      @media @phone {
+        display: none;
+      }
     }
   }
 
