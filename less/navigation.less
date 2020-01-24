@@ -8,6 +8,11 @@ nav {
     flex-direction: column;
     background-color: whitesmoke;
 
+    @media @phone {
+        display: flex;
+        
+    }
+
  h1 {
     .flexpad(flex,1rem,1rem);
    
@@ -19,6 +24,11 @@ nav {
     .flexpad(flex,1em,1em);
     justify-content: space-evenly;
     width: 40%;
+
+    @media @phone {
+        
+        width: 90%;
+    }
     
 
 
