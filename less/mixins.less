@@ -1,1 +1,25 @@
 // Mixins Here
+
+.flexpad (@flex, @top, @bottom) {
+    display: @flex;
+    padding-top: @top;
+    padding-bottom: @bottom;
+}
+
+.colorsize (@color,@size) {
+    color: @color;
+    font-size: @size;
+}
+
+.bttn (@bg,@color,@align,@pad) {
+
+    background-color: @bg;
+    color: @color;
+    text-align: @align;
+    padding: @pad;
+    border-radius: 5px;
+    text-decoration: none;
+
+
+}
+
